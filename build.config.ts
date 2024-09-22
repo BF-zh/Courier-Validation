@@ -5,7 +5,7 @@ export default defineBuildConfig({
     {
       input: 'src/index.ts',
       outDir: 'dist',
-      format: 'esm',
+      format: 'cjs',
     },
   ],
   declaration: true,

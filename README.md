@@ -3,8 +3,6 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![bundle][bundle-src]][bundle-href]
-[![JSDocs][jsdocs-src]][jsdocs-href]
-[![License][license-src]][license-href]
 
 ## Installation
 ```bash
@@ -30,10 +28,6 @@ console.log(courier.validate('SF', 'SF1000000000000')) // true
 
 获取快递公司信息
 
-## License
-
-[MIT](./LICENSE) License © 2024-PRESENT [BF-zh](https://github.com/BF-zh)
-
 <!-- Badges -->
 
 [npm-version-src]: https://img.shields.io/npm/v/courier-validation?style=flat&colorA=080f12&colorB=1fa669
@@ -42,7 +36,3 @@ console.log(courier.validate('SF', 'SF1000000000000')) // true
 [npm-downloads-href]: https://npmjs.com/package/courier-validation
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/courier-validation?style=flat&colorA=080f12&colorB=1fa669&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=courier-validation
-[license-src]: https://img.shields.io/github/license/BF-zh/courier-validation.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/BF-zh/courier-validation/blob/main/LICENSE
-[jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/courier-validation
