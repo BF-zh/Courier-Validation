@@ -2,15 +2,15 @@ import { defineBuildConfig } from 'unbuild'
 
 export default defineBuildConfig({
   entries: [
-    {
-      input: 'src/index.ts',
-      outDir: 'dist',
-      format: 'cjs',
-    },
+    'src/index.ts',
   ],
   declaration: true,
+  sourcemap: true,
   clean: true,
   rollup: {
     emitCJS: true,
+    esbuild: {
+      minify: true,
+    },
   },
 })
