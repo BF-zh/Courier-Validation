@@ -1,14 +1,15 @@
-import * as Patten from '../pattern'
 import type { CourierPattern } from '../@types'
+import * as Patten from '../pattern'
 
 type CourierName = keyof typeof Patten
 
+export type CourierItem = CourierPattern
 /**
  * 快递查询
  */
 class Courier {
   private Pattens = Object.values(Patten)
-  public get(order: string): CourierPattern {
+  public get(order: string): CourierItem {
     return this.Pattens.find(patten => patten.reg.test(order)) || { name: '未知', reg: /.*/, alias: 'wz' }
   }
 
