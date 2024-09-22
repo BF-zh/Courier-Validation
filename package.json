@@ -1,7 +1,7 @@
 {
   "name": "courier-validation",
   "type": "module",
-  "version": "0.0.3-beta.3",
+  "version": "0.0.3-beta.4",
   "description": "A lightweight library for validating and formatting courier tracking numbers",
   "author": "BF-zh<2581807417@qq.com>",
   "homepage": "https://github.com/BF-zh/Courier-Validation#readme",
@@ -19,7 +19,7 @@
       "require": "./dist/index.cjs"
     }
   },
-  "main": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "typesVersions": {
